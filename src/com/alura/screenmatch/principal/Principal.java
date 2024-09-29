@@ -1,3 +1,5 @@
+package com.alura.screenmatch.principal;
+
 import com.alura.screenmatch.calculos.CalculadoraDeTiempo;
 import com.alura.screenmatch.calculos.FiltroRecomendacion;
 import com.alura.screenmatch.modelos.Episodio;
@@ -25,7 +27,7 @@ public class Principal {
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
         lost.setMinutosPorEpisodio(50);
-        System.out.println("Duracion de la série: " + lost.getDuracionEnMinutos());
+        System.out.println("Duracion de la serie: " + lost.getDuracionEnMinutos());
 
         Pelicula otraPelicula = new Pelicula("Avatar", 2023);
         otraPelicula.setDuracionEnMinutos(200);
